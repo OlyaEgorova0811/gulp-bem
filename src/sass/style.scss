@@ -1,0 +1,16 @@
+@import "base/normalize";
+@import "base/variables";
+@import "base/mixins";
+@import "blocks/promo";
+@import "blocks/header.scss";
+@import "blocks/buttons.scss";
+@import "blocks/advantages.scss";
+
+* {
+  font-family: "MuseoSans", sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}

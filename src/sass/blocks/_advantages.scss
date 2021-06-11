@@ -1,0 +1,40 @@
+.advantages {
+  background: #f6f6f6;
+  padding: 70px 0 65px;
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0d0d0d;
+  }
+
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  &__block {
+    width: 277px;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #0d0d0d;
+      margin-top: 35px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      margin-top: 20px;
+      a {
+        color: #ff0000;
+      }
+    }
+  }
+}
